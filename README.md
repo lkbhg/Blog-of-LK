@@ -1,5 +1,18 @@
 # 在Windows Visual Studio上配置oneAPI的MPI编译&运行
-注： 以下配置已经进行过自动超链接优化，与`OneAPI`的版本无关，更新版本之后配置依然不会失效。请勿选择版本相关的路径。
+
+---
+
+## 版权声明
+
+© 2026 [Kan Liu]。保留所有权利。
+
+本文为原创作品，未经允许不得转载。可以通过以下方式联系作者：[lkbhg@outlook.com]。
+
+---
+
+注： 以下配置已经进行过自动超链接优化，与`OneAPI`的版本无关，更新版本之后配置依然不会失效。如非必要，无需选择版本相关的路径。
+
+---
 ## 方法一：
 ```Project->properties```:切换到```Release```或者新建一个配置
 
@@ -66,7 +79,8 @@ Input->Additional Dependencies:```impi.lib```
 System->Subsystem:```Console (/SUBSYSTEM:CONSOLE)```
 
 Optimization->Interprocedural Optimization:```Yes```
- 
+
+---
 ## 方法二：
 或者可以打开`.vfproj`文件，在`Configure`配置标签列表中添加以下内容(直接复制)：	
 ```vfproj

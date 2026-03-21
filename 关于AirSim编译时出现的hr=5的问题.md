@@ -21,8 +21,8 @@
 完整的报错信息：Error at startup: Error creating directory, hr=5
 
 具体Issue来源为：
-[https://github.com/microsoft/AirSim/issues/1150#issue-330970602]
-AirSim issue #1150
+[AirSim issue #1150](https://github.com/microsoft/AirSim/issues/1150#issue-330970602])
+
 
 ## 修复方法
 简单的修复方法就是把`文档`文件夹改回默认位置就好了。
